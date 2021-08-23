@@ -1,0 +1,568 @@
+/* -----------------------------------Media Queries Breakpoints for desktop(default)  +  tablet(795px)  +  mobile(480px)-------------------------------------- */
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    margin: 0 auto; 
+}
+
+
+     /* -------------------Header with Welcome Banner Styling------------------------ */
+header {
+    background-color: #f4f4f4;
+    text-align: center;
+    border-left: 5px solid #F2B138;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0; 
+}
+
+h4 {
+    display: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #F2B138;
+}
+
+header h1 {
+    font-size: 1.6em; 
+}
+
+.banner {
+    position: relative;
+}
+    
+.banner img {
+    max-width: 100%; 
+    top: 0;    
+}
+
+
+    /*------------------------Navigation Links Styling---------------------------- */
+nav {
+   background-color: #f4f4f4;
+   border-right: 5px solid #F2B138;
+   padding: 10px;
+   max-width: 100%;
+   position: sticky;
+   top: 0px;
+   z-index: 1;  
+}
+
+nav ul{
+    white-space: nowrap;
+    margin: 5px;
+    padding: 5px;
+}
+
+nav li {
+    width: 20%;
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 10px;
+    font-weight: bold;
+    color: #F2B138;     
+}
+
+.centerAlign1 {
+    text-align: right;    
+}
+
+.rightFloatOne {
+    position: relative;
+    text-decoration: none;
+    left: 30px; 
+    width: 20%;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #F2B138;   
+}
+
+.rightFloatTwo {
+    position: relative;
+    text-align: right;
+    left: 100px;
+    text-decoration: none;
+    width: 20%;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #F2B138;    
+}
+
+li a {
+    color: #F2B138;
+}
+
+.clearList {
+    clear: both;
+}
+
+
+    /*--------------------------Seatile Section Styling--------------------------------- */
+.seatile {
+    position: relative;
+    overflow-y: hidden;
+}
+
+.seatile img {
+    max-width: 100%; 
+    top: 0;
+    opacity: 0.75; 
+    z-index: 0;
+}
+
+.seatile #textOfSeatile {
+    position: absolute;
+    left: 8%;
+    top: 80%;
+    max-width: 85%;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 20px;
+    background-color: #353D40;
+    color: #D9D9D9;
+    display: inline-block;    
+}
+
+#textOfSeatile p {
+     font-size: 1em;
+     line-height: 1.8em;   
+}
+
+#emphasis {
+    font-size: 1em;
+    font-weight: bold;   
+}
+
+
+    /*-------------------------Div Section with column gird Styling------------------------ */
+#content {
+    column-count: 2;
+    column-gap: 4em;
+    margin: 1em 0 0;
+    padding: 2em;
+    line-height: 2em;
+    text-align: justify;    
+}
+
+#content section{
+    margin: 0 0 0 40px;   
+}
+
+#content img {
+    width: 100%;
+    margin: 10px auto;
+}   
+
+#content p {
+    color: #353D40;
+}
+
+h3 {
+    color: #353D40;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1.8em;
+    margin-top: 28px;
+}
+
+
+    /*-------------------Interior Content Separation Div Styling------------------------- */
+.interior img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.features {
+    background: #f4f4f4;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    color: #F2B138;
+    word-spacing: 5px; 
+    border-left: 5px solid #F2B138;  
+}
+
+#about {
+    display: block;
+    margin: 20px 40px;
+    border:  2px #f4f4f4 solid;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-right: #F2B138 5px solid;
+}
+
+
+    /*------------------------About Navigation Section Styling------------------------------ */
+h2 {
+    color:#F2B138;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+#about p {
+    display: block;
+    font-size: 1em;
+    line-height: 1.8em;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
+    /*---------------------------Wrapper Div Grid Styling----------------------------------- */
+.column {
+    float: left;
+    width: 50%;
+}
+
+.tile {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    max-width: 720px;
+    max-height: 180px;
+}
+
+.column p {
+    padding: 20px;
+    text-align: justify;
+    display: block;
+    margin: 10px;
+    width: 100%;
+    line-height: 2em;
+    font-size: 1em;
+    color: #6d6c6c;
+}
+
+.clear {
+    clear: both;
+}
+
+
+    /*--------------------------Footer Div Grid Styling--------------------------------- */
+footer {
+    background-color: #f4f4f4;
+    padding: 50px 80px 10px 80px;
+
+}
+
+footer .copyright {
+    text-align: center;
+    color: #cfcfcf;
+    font-size: 1em;
+}
+
+footer .column p{
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 120px;
+    color: #cfcfcf;
+    font-size: 1.2em;
+}
+
+address {
+    text-align: center;
+    color: #cfcfcf;
+    font-size: 1.2em;
+}
+
+address a {
+    font-size: 2.2em;
+    padding: 50px;
+    text-decoration: none;
+    color: #cfcfcf;
+    
+}
+
+
+    /*---------------------------Form in Footer Div Styling------------------------------- */
+#contactUs {
+    color: #D9D9D9;
+}
+
+form input {
+    margin: 10px 10px 10px 0;
+    padding: 10px 10px;
+    font-size: 0.8em;
+    width: 450px;
+    color: #6d6c6c;
+    border: 4px solid #f4f4f4;
+    border-right: 1.8px solid #F2B138;
+}
+
+#submit {
+    border: none;
+}
+
+form textarea {
+    margin: 10px 0;
+    padding: 10px 10px;
+    font-size: 1em;
+    width: 450px;
+    height: 150px;
+    border: 4px solid #f4f4f4;
+    border-left: 1.8px solid #F2B138;    
+}
+
+
+/* ----------------------------------Default styling for Desktop ends here---------------------------------------------- */
+
+
+
+      /* ------------------------------------- Pseudo Elements starts here------------------------------------ */
+
+
+/*-----------Submit button in form------------- */
+    #submit:hover {
+        border: 1px solid #F2B138;
+        background-color: white;
+        color: #6d6c6c;
+}
+
+/*------------Clear div in Grids-------------- */
+    .row::after {
+        content: "";
+        clear: both;
+}
+
+/*------------Float links in Nav------------- */
+    .rightFloatOne:hover {
+        text-decoration: underline;
+        color: #6d6c6c;
+}
+
+    .rightFloatTwo:hover {
+        text-decoration: underline;
+        color: #6d6c6c;
+}
+
+    li a:hover {
+        color: #D9D9D9;
+}
+
+/*---------Image tiles in Wrapper Div---------- */
+    .tile:hover {
+        position: relative;
+        top: -3px;
+        border: 1px solid #cfcfcf;
+}
+
+
+
+/* --------------------------------------Pseudo Elements ends here-------------------------------------- */
+
+
+
+     /*---------------------------Media Querie Breakpoint For Tablet(Potrait and Landscape mode) starts here--------------------------- */
+
+@media only screen and (max-width: 768px) 
+                   and (-webkit-min-device-pixel-ratio: 1){
+
+/*-----------content id in Abstract-------------*/    
+        #content {
+            column-count: 1;
+            column-gap: 4em;
+            line-height: 1.6em;    
+        }
+
+/*---------------nav links bar----------------*/
+        nav {
+            position: static;
+        }
+
+        .rightFloatOne {
+            font-size: 1.7em;
+            left: -25px;
+            
+        }
+        .rightFloatTwo {
+            font-size: 1.7em;
+            left: 20px;    
+        }
+
+/*-------------webpage header----------------*/
+        header {
+            position: sticky;
+            background-color: #F2B138;
+            border-left: none;
+            font-size: 0.9em;
+            padding: 15px;
+            z-index: 1;
+        }
+
+        header a {
+            text-decoration: none;
+            color: white;
+        }
+
+/*-------content section in abstract---------*/
+        #content img {
+            width: 100%;
+            margin: 1em 0 0;
+        } 
+
+        #content section{
+            margin: 0 auto;   
+        }
+
+        h3 {
+            line-height: 1.5em;
+            margin-top: 0;
+        }
+
+/*--------------seatile main-----------------*/
+        .seatile #textOfSeatile {
+            max-width: 100%;
+            font-size: 0.8em;
+            line-height: 0;
+            left: 5%;
+            top: 60%;
+            margin: 0 auto;
+            padding: 10px;
+            overflow: visible;
+        }
+
+        #emphasis {
+            font-size: 1em;
+        }
+
+/*---------wrapper div with image as grids-----*/        
+        .column {
+            width: 100%;
+            float: none;
+            text-align: center;
+        }
+
+        .column h2{
+            text-align: center;
+        }
+
+        .column p {
+            padding: 10px;
+            text-align: justify;
+            display: block;
+            margin: 5px;
+            width: 100%;
+            line-height: 1.2em;
+            font-size: 0.9em;    
+        }
+
+        .tile {
+            width: 100%;
+            height: 100%;
+        }
+
+/*---------------all heading 2----------------*/ 
+        h2 {
+            font-size: 1.2em;
+        }
+
+/*-----feature class in interior section------*/
+        .features {
+            padding: 12px;
+            font-size: 1em;
+            border-left: 4px solid #F2B138;  
+        }
+
+/*---------Content in Footer section----------*/ 
+        footer {
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px 18px 10px 18px;
+        }
+
+        footer .column h2 {
+            padding-top: 10px;
+        }
+        
+        footer .column p{
+            font-size: 1em;
+            margin-bottom: 15px;
+            padding-top: 0px;
+        }
+        
+        footer .copyright {
+            padding-top: 80px;
+            font-size: 0.8em;
+        }
+
+        address {
+            font-size: 1em;
+        }
+        
+        address a {
+            font-size: 2em;    
+        }
+}
+    /*---------------------------Media Querie Breakpoint For Tablet ends here--------------------------- */
+
+
+
+
+
+
+     /*---------------------------Media Querie Breakpoint For Mobile(Potrait and Landscape mode) starts here--------------------------- */
+    
+
+@media only screen and (max-width: 480px) 
+                   and (-webkit-min-device-pixel-ratio: 1){
+        
+        body {
+            max-width: 100%;
+            margin: 0 auto;
+            align-content: center;    
+        }
+
+/*---------nav links bar-------------*/
+        .rightFloatOne {
+            font-size: 1.4em;
+        }
+
+        .rightFloatTwo {
+            font-size: 1.4em;    
+        }
+
+/*----------seatile main-------------*/
+        .seatile #textOfSeatile {
+            left: 5%;
+            top: 55%;
+            padding: 4px;
+        }
+
+/*------Div Section with column gird Styling--------*/
+        h3 {
+            line-height: 1.5em;
+            margin-top: 0;
+        }
+
+/*-----------Content in Footer section-------------*/
+        form input {
+            margin: 0 auto;
+            padding: 15px 15px;
+            font-size: 0.8em;
+            width: 350px;   
+        }
+
+        form textarea {
+            margin: 0 auto;
+            padding: 15px 15px;
+            width: 350px;
+            height: 120px;        
+        }
+}
+
+     /*---------------------------Media Querie Breakpoint For Mobile ends here--------------------------- */
